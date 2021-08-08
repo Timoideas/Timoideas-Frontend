@@ -6,11 +6,11 @@ module.exports = {
         destination: '/stream',
         permanent: false,
       },
-      // {
-      //   source: '/',
-      //   destination: '/',
-      //   permanent: true,
-      // },
+      {
+        source: '/index',
+        destination: '/',
+        permanent: true,
+      },
     ];
   },
   // i18n: {
