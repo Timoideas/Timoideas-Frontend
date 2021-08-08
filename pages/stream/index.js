@@ -6,7 +6,6 @@ import {
   Content,
   Boton_1,
 } from 'components/timoideas/Timoideas.components';
-// import Stream from 'components/stream/Stream.component';
 export default function Stream() {
   return (
     <>
