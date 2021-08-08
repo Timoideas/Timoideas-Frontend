@@ -1,16 +1,16 @@
 module.exports = {
   async redirects() {
     return [
-      {
-        source: 'Stream',
-        destination: 'stream',
-        permanent: true,
-      },
-      {
-        source: '/index',
-        destination: '/',
-        permanent: true,
-      },
+      // {
+      //   source: '/Stream',
+      //   destination: '/stream',
+      //   permanent: true,
+      // },
+      // {
+      //   source: '/index',
+      //   destination: '/',
+      //   permanent: true,
+      // },
     ];
   },
   // i18n: {
