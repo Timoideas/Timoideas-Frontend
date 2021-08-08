@@ -1,5 +1,5 @@
 import style from 'styles/pages/stream.module.css';
-import Head from 'heads/Stream.head';
+import Head from 'heads/stream.head';
 import {
   Section,
   Body,
