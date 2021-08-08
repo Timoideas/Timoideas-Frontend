@@ -9,6 +9,7 @@ import { useEffect } from 'react';
 import { socket } from 'sockets/Index.socket';
 export default function Stream() {
   useEffect(() => {
+    console.log(process.env.NEXT_PUBLIC_BACKEND_API);
     const audio = new Audio();
     var constraints = { audio: true };
     navigator.mediaDevices
