@@ -2,8 +2,8 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: '/Stream',
-        destination: '/stream',
+        source: 'Stream',
+        destination: 'stream',
         permanent: true,
       },
       {
