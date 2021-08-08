@@ -1,0 +1,26 @@
+/* Phone RD */
+.Stream {
+	font-size: 2vh;
+	text-align: center;
+}
+
+/* Tablet RD */
+@media (min-width: 576px) {
+	.Stream {
+		background: var(--c01)
+;	}
+}
+
+/* Laptop RD */
+@media (min-width: 768px) {
+	.Stream {
+		background: var(--c01)
+;	}
+}
+
+/* Desktop RD */
+@media (min-width: 1200px) 
+{	.Stream {
+		background: var(--c01)
+;	}
+}
