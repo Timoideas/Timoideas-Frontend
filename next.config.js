@@ -4,7 +4,7 @@ module.exports = {
       {
         source: '/Stream',
         destination: '/stream',
-        permanent: false,
+        permanent: true,
       },
       {
         source: '/index',
