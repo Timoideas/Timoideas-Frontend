@@ -5,4 +5,6 @@
 .git
 desktop.ini
 Releases/
-.env.localdesktop.ini
+.env.local
+desktop.ini
+.env.development
