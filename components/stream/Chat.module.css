@@ -1,0 +1,106 @@
+/* Phone RD */
+.Chat {
+  font-size: 2vh;
+  text-align: center;
+  gap: 1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 1vh;
+}
+.ChatContainer {
+  width: 100%;
+  display: flex;
+  border: 2px solid var(--c08);
+  min-height: 15vh;
+  max-height: 90vh;
+  position: relative;
+  flex-direction: column;
+  gap: 5px;
+  border-radius: 2vh;
+  overflow: hidden;
+  padding: 10px;
+}
+.Inner,
+.Outer {
+  color: var(--c20);
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.Inner {
+  justify-content: flex-end;
+}
+.Outer {
+  justify-content: flex-start;
+}
+.Inner > div,
+.Outer > div {
+  border-radius: 2vh;
+  padding: 1vh 2vh;
+  font-size: 1.5vh;
+  line-height: 1.5vh;
+  min-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Inner > div {
+  background: #39f;
+}
+.Outer > div {
+  border: 2px solid var(--c08);
+}
+
+.InputContainer {
+  position: relative;
+}
+.InputContainer input {
+  width: 35vh;
+  padding: 1vh 2vh;
+  border: 2px solid var(--c08);
+  color: var(--c08);
+  font-size: 1.5vh;
+  line-height: 1.5vh;
+  font-weight: 600;
+  outline: none;
+  background: transparent;
+  border-radius: 2vh;
+}
+.Send {
+  width: 3vh;
+  height: 3vh;
+  position: absolute;
+  z-index: 1;
+  border: 1px solid #39f;
+  border-radius: 50%;
+  top: 50%;
+  transform: translate(0%, -50%);
+  right: 3px;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+}
+/* Tablet RD */
+@media (min-width: 576px) {
+  .Chat {
+    background: var(--c01);
+  }
+}
+
+/* Laptop RD */
+@media (min-width: 768px) {
+  .Chat {
+    background: var(--c01);
+  }
+}
+
+/* Desktop RD */
+@media (min-width: 1200px) {
+  .Chat {
+    background: var(--c01);
+  }
+}
